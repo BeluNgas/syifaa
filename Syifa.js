@@ -25,7 +25,7 @@ const {
    mentionedJid,
    processTime,
 } = require("@adiwajshing/baileys")
-const brainly = require('brainly-scraper.test')
+const brainly = require('brainly-scraper')
 const { spawn, exec, execSync } = require("child_process")
 const fs = require('fs')
 const crypto = require('crypto')
